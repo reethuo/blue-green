@@ -4,6 +4,7 @@ metadata:
   name: my-app-green
   labels:
     app: green
+  harness.io/direct-apply: true
 spec:
   replicas: 3
   selector:
