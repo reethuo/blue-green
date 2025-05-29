@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-app-svc-blue
   annotations:
-    harness.io/stage-service: "true"
+    harness.io/primary-service: "true"
 spec:
   type: LoadBalancer
   selector:
