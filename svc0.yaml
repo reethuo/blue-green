@@ -4,7 +4,6 @@ metadata:
   name: my-app-svc-green
   annotations:
     harness.io/primary-service: "true"
-    #cloud.google.com/neg: '{"ingress": true}'*/
 spec:
   type: LoadBalancer
   selector:
